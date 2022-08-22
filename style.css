@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+}
+
+section h1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%);
+  font-size: 4em;
+}
+
+.container {
+  display: grid;
+  z-index: 100;
+  width: 600px;
+  height: 600px;
+  background-color: lightgray;
+  margin: 4em 4em 0em 4em;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+}
